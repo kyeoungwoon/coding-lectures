@@ -1,0 +1,7 @@
+body {
+  min-width: 800px;
+  background-image: url("../assets/background/main-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}

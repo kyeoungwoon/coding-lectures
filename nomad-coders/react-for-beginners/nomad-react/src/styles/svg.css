@@ -1,0 +1,86 @@
+/* 
+https://ordinary-code.tistory.com/25 해당 사이트 참고
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #16345a;
+  padding: 0;
+  margin: 0;
+}
+
+.text-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+svg text {
+  font-family: "Staatliches", cursive;
+  font-size: 6em;
+  fill: transparent;
+  stroke-dasharray: 500px;
+  animation: stroke 1s linear;
+  animation-fill-mode: forwards;
+}
+svg text:nth-child(1) {
+  animation-delay: 0s;
+}
+svg text:nth-child(2) {
+  animation-delay: 0.5s;
+}
+svg text:nth-child(3) {
+  animation-delay: 1s;
+}
+svg text:nth-child(4) {
+  animation-delay: 1.5s;
+}
+svg text:nth-child(5) {
+  animation-delay: 2s;
+}
+svg text:nth-child(6) {
+  animation-delay: 2.5s;
+}
+svg text:nth-child(7) {
+  animation-delay: 3s;
+}
+svg text:nth-child(8) {
+  animation-delay: 3.5s;
+}
+svg text:nth-child(9) {
+  animation-delay: 4s;
+}
+svg text:nth-child(10) {
+  animation-delay: 4.5s;
+}
+svg text:nth-child(11) {
+  animation-delay: 5s;
+}
+svg text:nth-child(12) {
+  animation-delay: 5.5s;
+}
+@keyframes stroke {
+  0% {
+    stroke: #f1c164;
+    stroke-width: 3px;
+    stroke-dashoffset: 500px;
+  }
+  70% {
+    fill: transparent;
+  }
+  98% {
+    stroke: #f1c164;
+    stroke-width: 3px;
+  }
+  100% {
+    fill: #f1c164;
+    stroke-dashoffset: 0px;
+  }
+}
